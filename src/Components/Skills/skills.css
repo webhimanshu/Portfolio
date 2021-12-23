@@ -1,0 +1,96 @@
+.skills-section
+{
+   
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: -1000;
+    
+}
+.skills-bar
+{
+    width: 90%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow:5px 5px 10px rgba(0,0,0,0.2); 
+    height: 500px;
+    padding: 25px 20px;
+    margin-top: 50px;
+   
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+}
+.skills-bar .bar
+{
+ 
+    width: 45%;
+margin-right: 20px;
+    height: 50px;
+  
+}
+.skills-bar .bar:first-child
+{
+    margin-top: 0px;
+}
+.skills-bar .bar .info span
+{
+font-size: 17px;
+font-weight: 700;
+}
+.skills-bar .bar .info
+{
+    margin-bottom: 5px;
+
+}
+.skills-bar .bar .progress-line
+{
+    height: 10px;
+    width: 100%;
+    background: #f0f0f0;
+    box-shadow: inset 0px  1px 1px rgba(0,0,0,0.05)  0px  1px rgba(255,255,255,0.8);
+    border-radius: 10px;
+    position: relative;
+}
+  .bar .progress-line .progress-data
+ {
+     height: 100%;
+  
+     position: absolute;
+     border-radius: 10px;
+     background-color: blueviolet;
+   
+     
+
+ }
+ .bar .progress-line .progress-data span
+ {
+    position: absolute;
+  
+    right:-20px;
+    top: -20px;
+   background-color: black;
+   color: #fff;
+   font-size: small;
+   border-radius: 3px;
+   padding: 2px 3px;
+}   
+ 
+ @media (max-width:560px) 
+ {
+    .skills-bar
+    {
+        flex-direction: column;
+    }      
+    
+.skills-bar .bar
+{
+ 
+    width: 90%;
+
+ 
+  
+}
+ }

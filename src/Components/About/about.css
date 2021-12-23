@@ -1,0 +1,144 @@
+ .about
+{
+display: flex;
+height: 90vh;
+justify-content: space-around;
+position: relative;
+z-index: -1000;
+}
+.photo-section
+{
+ 
+   width: 50%;
+  
+   text-align: center;
+   margin-top: 20px;
+   
+padding-top: 60px;
+}
+.bio-section
+{
+  
+    width: 50%;
+}
+.photo-section img
+{
+    height: 60vh;
+ border-radius: 5px;
+width: 80%;
+    
+}
+.bio-section
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    
+    height: 90vh;
+    align-items: center;
+    width: 35%;
+}
+.bio-section .para
+{
+    font-weight: 600;
+}
+.bio-section  span
+{
+    color: blueviolet;
+}
+.bio-section p
+{
+    font-size: 20px;
+}
+button
+{
+   
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.btn1
+{
+    background-color: blueviolet;
+    
+}
+.btn2
+{
+    
+    background-color: #6c757d;
+    border-color: #6c757d;
+  margin-left: 10px;
+  cursor: pointer;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    color: #fff;
+} 
+
+@media(max-width:990px)
+{
+   
+.photo-section img
+{
+    height: 60vh;
+ border-radius: 5px;
+   width: 100%; 
+}
+
+.bio-section p
+{
+    font-size: 18px;
+}
+}
+
+@media(max-width:560px)
+{
+    .about
+    {
+ flex-direction: column;
+
+
+    } 
+    
+.photo-section
+{
+ 
+   width: 100%;
+  
+   text-align: center;
+ margin-top: 150px;
+   
+
+}
+.photo-section img
+{
+    height: 60vh;
+ border-radius: 5px;
+width: 90%;
+    
+}
+
+.bio-section
+{
+  
+    padding: 0 10px;
+    
+    height: 80vh;
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.bio-section .para
+{
+    font-weight: 600;
+}
+}

@@ -1,0 +1,106 @@
+.conatct-section
+{
+
+display: flex;
+position: relative;
+z-index: -1000;
+}
+.contact-one{
+    padding-top: 20px;
+
+width: 60%;
+display: flex;
+flex-direction: column;
+text-align: center;
+height: 90vh;
+}
+.contact-one input
+{
+    width: 80%;
+    padding:  10px 10px ;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 10px;
+    height: 50px;
+    font-size: 1.2rem;
+}
+.contact-one textarea
+{
+    width: 80%;
+    height: 200px;
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-size: 1.2rem;
+    padding:  10px 10px ;
+}
+.contact-one button
+{
+padding: 10px 20px;
+font-size: 1.2rem;
+background-color: blueviolet;
+border: none;
+outline: none;
+border-radius: 25px;
+margin-top: 20px;
+}
+.contact-two{
+    width: 40%;
+    
+    padding-top: 20px;
+    text-align: center;
+   
+}
+.details-section
+{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+
+height: 60vh;
+line-height: 1.5rem;
+}
+.details-section h4
+{
+margin-top: 15px;
+
+}
+@media (max-width:550px)
+{
+    .conatct-section
+    {
+        flex-direction: column;
+    }
+    .contact-one
+    {
+        width: 100%;
+        height: 80vh;
+    }
+    
+.contact-one input
+{
+    width: 90%;
+    padding:  5px 5px ;
+    margin: 10px;
+    height: 50px;
+    font-size: 1.0rem;
+}
+.contact-one textarea
+{
+    width: 90%;
+    height: 100px;
+    font-size: 1.0rem;
+    padding:  5px 5px ;
+}
+.contact-two{
+    width: 100%;
+    padding-top: 10px;
+    
+}
+.details-section
+{
+    height: 50vh;
+}
+}
